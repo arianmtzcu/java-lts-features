@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- JDK toolchains -->
+<toolchains>	
+	<toolchain>
+		<type>jdk</type>
+		<provides>
+			<vendor>openjdk</vendor>
+			<version>1.8</version>
+		</provides>
+		<configuration>
+			<jdkHome>C:\Program Files\Java\jdk1.8.0_202</jdkHome>
+		</configuration>
+	</toolchain>
+
+	<toolchain>
+		<type>jdk</type>
+		<provides>
+			<vendor>openjdk</vendor>
+			<version>11</version>
+		</provides>
+		<configuration>
+			<jdkHome>C:\Program Files\Java\jdk-11.0.12</jdkHome>
+		</configuration>
+	</toolchain>
+
+	<toolchain>
+		<type>jdk</type>
+		<provides>
+			<vendor>openjdk</vendor>
+			<version>17</version>
+		</provides>
+		<configuration>
+			<jdkHome>C:\Users\admin\.jdks\corretto-17.0.6</jdkHome>
+		</configuration>
+	</toolchain>
+
+	<toolchain>
+		<type>jdk</type>
+		<provides>
+			<vendor>openjdk</vendor>
+			<version>21</version>
+		</provides>
+		<configuration>
+			<jdkHome>C:\Users\admin\.jdks\corretto-21.0.4</jdkHome>
+		</configuration>
+	</toolchain>
+</toolchains>
